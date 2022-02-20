@@ -1,0 +1,55 @@
+@import '../../styles.scss';
+
+.menu{
+    display: flex;
+    padding: 1rem 7rem;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    // height: 3rem;
+    // width: 100%;
+    &-logo{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    &-options{
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                padding: 0 1rem;
+                a{
+                    color: $color-ligth;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &-btn{
+        font-weight: 700;
+        font-size: 1rem;
+        color: $color-dark;
+        padding: 1rem 1.5rem;
+        background-color: $color-green;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .menu{
+        padding: 1rem 0;
+        flex-direction: column;
+        &-options{
+            margin: 2rem 0;
+            ul{
+                font-size: .7rem;
+            }
+        }
+    }
+}

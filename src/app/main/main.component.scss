@@ -1,0 +1,24 @@
+@import '../../styles.scss';
+
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    h1{
+        z-index: 1;
+    }
+    p{
+        z-index: 1;
+        margin-top: 1rem;
+        color: $color-green;
+        text-transform: uppercase;
+    }
+    img{
+        z-index: 0;
+        pointer-events: none;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, rgba(12, 12, 12, 0.096) 0%, rgba(134, 207, 9, 0.258984) 45.22%, rgba(0, 132, 0, 0.3) 100%);
+    }
+}

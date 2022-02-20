@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+$color-green: #9BF00B;
+$color-dark:  #0C0C0C;
+$color-gray:  #777777;
+$color-white: #FFFFFF;
+$color-ligth: #C0C0C0;
+$color-dark-green: #6aa700;
+
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body{
+    color: $color-white;
+    font-family: 'Inter', sans-serif;
+    background-color: $color-dark;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background: $color-dark; 
+}
+::-webkit-scrollbar-thumb {
+    background: $color-green; 
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: $color-dark-green; 
+}

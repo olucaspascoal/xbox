@@ -1,0 +1,56 @@
+@import '../../styles.scss';
+
+.sobre{
+    display: flex;
+    padding: 5rem 7rem;
+    &-text{
+        width: 50%;
+        h2{
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 130%;
+        }
+        h2 span{
+            color: $color-green;
+        }
+        p{
+            width: 70%;
+            font-weight: 500;
+            line-height: 170%;
+            margin-top: 1rem;
+            color: $color-ligth;
+        }
+    }
+    &-img{
+        width: 50%;
+        height: auto;
+        img{
+            height: auto;
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sobre{
+        padding: 5rem 2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sobre{
+        flex-direction: column;
+        &-text{
+            width: 100%;
+            p{
+                width: 100%;
+            }
+        }
+        &-img{
+            width: 100%;
+            margin-top: 1rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

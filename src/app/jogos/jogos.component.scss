@@ -1,0 +1,29 @@
+@import '../../styles.scss';
+
+.jogos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    &-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        img{
+            width: 100%;
+        }
+        &:hover{
+            background-color: $color-green;
+        }
+    }
+    }
+
+
+@media only screen and (max-width: 600px) {
+    .jogos{
+        flex-direction: column;
+        &-item{
+            width: 90%;
+        }
+    }
+}

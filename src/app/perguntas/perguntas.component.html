@@ -1,0 +1,13 @@
+<div class="perguntas">
+    <h2> <span> Perguntas </span> frequentes </h2>
+
+    <div class="perguntas-item" *ngFor="let item of perguntas; let i = index">
+        <div class="perguntas-item-title" (click)="exibeMais(i)">
+            <h3> {{item.title}} </h3>
+            <img src="../../assets/arrow.svg" id="arrow-{{i}}" alt="">
+        </div>
+        <div class="perguntas-item-body" id="{{i}}" >
+            <p> {{item.answer}} </p>
+        </div>
+    </div>
+</div>

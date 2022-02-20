@@ -1,0 +1,44 @@
+@import '../../styles.scss';
+
+.perguntas{
+    padding: 3rem 7rem;
+    h2 span{
+        color: $color-green;
+    }
+    &-item-title{
+        display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid rgba($color-ligth, .1);
+
+        h3{
+            font-weight: 500;
+        }
+        img{
+            transition: .5s;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &-item-body{
+        display: none;
+        p{
+            font-weight: 500;
+            color: rgba($color-ligth, .5);
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .perguntas{
+       padding: 5rem 2rem;
+
+       &-item-title{
+            h3{
+                font-size: 1rem;
+            }
+        }
+    }
+}

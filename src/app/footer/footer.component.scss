@@ -1,0 +1,35 @@
+@import '../../styles.scss';
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+    p{
+        font-weight: 500;
+        color: $color-ligth;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'DM Sans', sans-serif;
+        span{
+            color: #1EA0FF;
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+    footer{
+        padding: 2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        a{
+            margin: 2rem 0;
+        }
+    }
+}
