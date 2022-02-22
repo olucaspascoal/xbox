@@ -2,6 +2,7 @@
 
   # 💻 Site | Xbox
   [![Generic badge](https://img.shields.io/badge/Made%20by-Lucas%20Pascoal-purple.svg)](https://shields.io/)  
+  [![wakatime](https://wakatime.com/badge/user/ae0cdf89-1fb6-4933-9a13-aed46d581a32/project/4cb7da99-ef80-439e-ad26-7b9a8aaf4920.svg)](https://wakatime.com/badge/user/ae0cdf89-1fb6-4933-9a13-aed46d581a32/project/4cb7da99-ef80-439e-ad26-7b9a8aaf4920)
   
 </div>
 
